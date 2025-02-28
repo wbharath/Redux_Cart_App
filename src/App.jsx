@@ -12,6 +12,7 @@ function App() {
   const { cartItems } = useSelector((store) => store.cart)
   const { isOpen } = useSelector((store) => store.modal)
 
+  console.log(cartItems)
   const dispatch = useDispatch()
 
   useEffect(() => {
